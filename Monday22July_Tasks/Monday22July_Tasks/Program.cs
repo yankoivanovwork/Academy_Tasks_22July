@@ -7,7 +7,7 @@ namespace Monday22July_Tasks
         public static void Main(string[] args)
         {
             int sizeN;
-            //task 1
+
             Console.WriteLine("Task 1: Print 3d array with random 'double' values.");
             PrintArray();
 
@@ -71,12 +71,11 @@ namespace Monday22July_Tasks
                 {
                     for (int k = 0; k < array3d.GetLength(1); k++)
                     {
-                        array3d[i, j, k] = rng.NextDouble() * (1000 - 1) + 1;
+                        array3d[i, j, k] = rng.NextDouble() * (1000.0d - 1.0d) + 1.0d;
                     }
                 }
             }
-
-            Console.WriteLine("Task 1: Print Array");
+            
             for (int i = 0; i < array3d.GetLength(0); i++)
             {
                 for (int j = 0; j < array3d.GetLength(1); j++)
