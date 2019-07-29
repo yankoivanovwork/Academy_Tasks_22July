@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Monday22July_Tasks\\Monday22July_Tasks\\Monday22July_Tasks.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Academy_Tasks\\Monday22July_Tasks\\Monday22July_Tasks\\Monday22July_Tasks.csproj",
       "projectName": "Monday22July_Tasks",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Monday22July_Tasks\\Monday22July_Tasks\\Monday22July_Tasks.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Academy_Tasks\\Monday22July_Tasks\\Monday22July_Tasks\\Monday22July_Tasks.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Monday22July_Tasks\\Monday22July_Tasks\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Academy_Tasks\\Monday22July_Tasks\\Monday22July_Tasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -150,17 +150,16 @@ namespace Monday22July_Tasks
 
         private static void FibunacciSequenceNumberPrint(int elementNth)
         {
-            long[] arrayFibunacci = new long[elementNth];
+            long numberOne = 0;
+            long numberTwo = 1;
 
-            arrayFibunacci[0] = 1;
-            arrayFibunacci[1] = 1;
-
-            for (int i = 2; i < elementNth; i++)
+            for (int i = 0; i < elementNth; i++)
             {
-                arrayFibunacci[i] = arrayFibunacci[i - 2] + arrayFibunacci[i - 1];
+                numberOne = numberOne + numberTwo;
+                numberTwo = numberOne - numberTwo;
             }
 
-            Console.WriteLine("Fibunacci sequence " + elementNth + " number is: " + arrayFibunacci[elementNth - 1]);
+            Console.WriteLine("Fibunacci sequence " + elementNth + " number is: " + numberOne);
         }
 
         private static void NFactorial(int nthNumber)
